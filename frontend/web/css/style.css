@@ -1,0 +1,83 @@
+.article{
+
+    max-height: 200px;
+    width:100%;
+    background-color:lightblue;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.article h3{
+    position: absolute;
+    top:0px;
+    left:0;
+    background-color: darkred;
+    color:white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.article-image{
+
+}
+
+.margin2{
+    margin: 2% auto;
+}
+
+.article img{
+     max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.article:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.article .article-description{
+    position: absolute;
+    bottom:0px;
+    height: 25%;
+    background-color: black;
+    opacity: 0.7;
+    color:white;
+    margin: 0px;
+}
+
+.trekking{
+    margin-top: 2%;
+}
+.trekking h3{
+    margin: 0px;
+    background-color: darkred;
+}
+
+.hiking-img{
+    float:left;
+    margin: auto 1em;
+    width:100px;
+    height:auto;
+
+}
+
+.hiking-view{
+  margin: 0.5em auto;
+}
+
+.falls-img{
+    float: left;
+    margin: auto 1em;
+    width: 30px;
+    height: auto;
+}
+.small-padding{
+    padding:5px;
+}

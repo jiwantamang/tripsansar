@@ -1,0 +1,606 @@
+.white{
+  color:white;
+}
+
+.logo{
+  height: 90px;
+  margin-left: 4%;
+
+}
+
+.hotel-img-thumbnail{
+  max-width: 7em;
+}
+
+
+
+.dropdown-menu{
+  background-color: #009999;
+
+}
+
+.row_divider{
+  background-color: whitesmoke;
+  margin:0 1em 0 auto;
+}
+.row_divider:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px 2px #009999;
+      -moz-box-shadow: 0 0 5px 2px #009999;
+      box-shadow: 0 0 5px 2px #009999;
+}
+
+.dropdown-menu > ul{
+  list-style: none;
+  padding: 0.5em;
+
+}
+
+.dropdown-menu > ul > li{
+  height: 2em;
+
+}
+
+
+
+.dropdown-menu > ul > li > a{
+  color:white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.dropdown-menu > ul > li:hover{
+  font-weight: bold;
+
+}
+.link-login{
+  line-height: 3em;
+}
+
+.site-index{
+  background-color: white;
+  min-height: 40em;
+}
+.days_box{
+  background: #009999;
+padding: 10px 20px;
+position: relative;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-khtml-border-radius: 3px;
+border-radius: 3px;
+color:white;
+font-weight: bold;
+
+}
+
+.itnry_heading{
+  color: #008291;
+line-height: 30px;
+padding-left: 15px;
+font-weight: 600;
+
+}
+
+.small-margin{
+  margin: 1em;
+}
+
+.no-margin{
+  margin:0px;
+}
+
+exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : black;
+  background-color: #f1f8e9;
+  padding : 5px 15px;
+}
+
+.login-div{
+  margin: 10% auto 3% auto;
+  background-color: whitesmoke;
+  border-radius: 1em;
+  padding: 5%;
+  box-shadow: 1px 1px 1px 1px;
+
+}
+
+.login{
+    background-color:wheat;
+    padding: 4%;
+    margin:10% auto;
+    border-radius: 5px;
+}
+
+
+.navbar-brand{
+  color:white;
+  font-weight: bold;
+}
+.navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-nav > li > a :focus{
+  color:black;
+}
+
+.place_info_table th{
+  font-size: 0.9em;
+}
+
+.place_info_table td{
+  font-size: 0.8em;
+}
+
+.place_info_div{
+  background-color: whitesmoke;
+  overflow-y: hidden;
+  max-height: 300px;
+}
+.place_info_div:hover{
+  -webkit-box-shadow: 0 0 5px 2px #009999;
+    -moz-box-shadow: 0 0 5px 2px #009999;
+    box-shadow: 0 0 5px 2px #009999;
+}
+
+.left-border-dotted{
+  border-left: 1px dotted black;
+}
+
+.tbl-hotel  ul li{
+  list-style: none;
+}
+
+.tbl-hotel ul{
+  margin:1em 0.1em 0.10em 0em;
+  padding-left: 1em;
+}
+
+.tbl-hotel tr:hover{
+  background-color: white;
+  cursor: pointer;
+}
+.advertisement-box
+{
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 1px 1px;
+  height: 300px;
+  background-image: url('../images/softpark.gif');
+  background-size: cover;
+
+  margin: 1em auto;
+}
+
+.carousel-indicators .active{ background: #31708f; } .content{ margin-top:20px; } .adjust1{ float:left; width:100%; margin-bottom:0; } .adjust2{ margin:0; } .carousel-indicators li{ border :1px solid #ccc; } .carousel-control{ color:#31708f; width:5%; } .carousel-control:hover, .carousel-control:focus{ color:#31708f; } .carousel-control.left, .carousel-control.right { background-image: none; } .media-object{ margin:auto; margin-top:15%; } @media screen and (max-width: 768px) { .media-object{ margin-top:0; } }
+
+.custom-div{
+  background: #dadad2;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 1em;
+}
+.hotel-name{
+  color:#009999;
+  font-weight: bold;
+  margin:0.1em;
+}
+
+.small-padding{
+  padding: 0.5em;
+}
+
+.yello{
+  background-color: yellow;
+}
+.gold{
+  background-color: gold;
+}
+
+.heading-title{
+  font-weight: bold;
+  color: blue;
+  margin: 0px;
+  text-decoration: underline;
+}
+.fotorama__caption__wrap{
+  background: rgba(0,0,0,0.4);
+  color:white;
+}
+.fotorama__caption__wrap > a{
+  color:red;
+}
+.blue{
+  color:blue;
+}
+.color-blue{
+  color:#0d6aad;
+}
+
+
+/* Dash Side */
+
+.ds {
+  background: #ffffff;
+  padding-top: 20px;
+}
+
+.ds h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ds h3 {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0 10px;
+  line-height: 60px;
+  height: 60px;
+  margin: 0;
+  background: #ff865c;
+  text-align: center;
+}
+
+.ds i {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.ds .desc {
+  border-bottom: 1px solid #eaeaea;
+  display: inline-block;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.ds .desc:hover {
+  background: #f2f2f2;
+}
+
+.ds .thumb {
+  width: 30px;
+  margin: 0 10px 0 20px;
+  display: block;
+  float: left;
+}
+
+.ds .details {
+  width: 80%;
+  float: left;
+}
+
+.ds > .desc p {
+  font-size: 11px;
+}
+
+.ds p > muted {
+  font-size: 9px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #666666
+}
+
+.ds a {
+  color: #68dff0;
+}
+
+.spel-description{
+  margin-left: 2.9em;
+  font-size: 10px;
+  font-style: italic;
+  color:#b35e14;
+}
+
+
+.searchboxselect{
+  height: 2em;
+  font-size: 1em;
+  font-width:bold;
+}
+.searchboxinput{
+  color:black;
+  font-size:1em;
+  height: 2em;
+  min-width: 110px;
+
+}
+
+.searchboxbutton{
+  font-size: 1em;
+  border-radius: 0px;
+}
+.custom-div-booking{
+  width:30%;
+  margin: 1% auto auto 1%;
+  position: absolute;
+  right: 1%;
+  background: rgba(255,222,179,0.6);
+
+}
+
+.custom-row{
+    padding: 1%;
+
+    border-bottom:  1px solid gray;
+    margin: 0px;
+
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.msg-box{
+    width: 500px;
+    margin: auto auto;
+    padding-top: 10%;
+}
+
+img.cos-profileimage{
+    border: 1px solid #eaf3f4;
+    margin: 2%;
+
+}
+h4.booking-h{
+    margin-left: 7em;
+    margin-right: 5em;
+}
+
+.customer-profile-create{
+
+
+    padding:2% 6%;
+
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+
+}
+
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-pic span {
+    display: inline-block;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
+}
+
+.message{
+    padding: 2em 1em;
+}
+.gradient-heading{
+        width: 100%;
+        height: 2em;
+        line-height: 2em;
+        color:white;
+        font-weight: bold;        
+       background-image: linear-gradient(130deg, green 40%, wheat 60.5%);
+}
+
+.gradient-heading-height{
+        width: 100%;
+
+        line-height: 1.5em;
+        color:white;
+        font-weight: bold;
+        padding: 1%;
+       background-image: linear-gradient(130deg, green 21%, wheat 21.5%);
+}
+
+
+.gradient-heading-sm-height{
+        width: 100%;
+
+        line-height: 1.5em;
+        color:white;
+        font-weight: bold;
+        padding: 1%;
+       background-image: linear-gradient(130deg, green 35%, wheat 35.5%);
+}
+
+.list-font{
+    font-size: 1.4em;
+
+}
+
+.image-center{
+    margin: 10% 4% auto 20%;
+    padding: 2% auto 2% auto;
+}
+
+.fotorama__caption__wrap{
+    background: rgba(255,222,179,0.4);
+    color:black;
+}
+
+.info-div{
+    background-color: black;
+    color:red;
+    padding: 0em 0em 0em 3em;
+}
+
+.not-found-div{
+    width: 100%;
+    height: 15em;
+    padding: 5em;
+    font-weight: bold;
+    background-color: wheat;
+    color:black;
+}
+
+.bg-important {
+    background: whitesmoke;
+    margin-bottom: 0.4em;
+}
+.bg-important li{
+    list-style: none;
+}
+
+.green{
+    background-color: green;
+    border-radius: 0px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    right:0;
+    left:auto;
+    background-color: green;
+    color:white;
+}
+
+.navbar-nav > li > a{
+    font-size: 1.2em;
+}
+.navbar-nav>li>.dropdown-menu > li{
+    color:white;
+    font-weight: bold;
+    font-size: 1em;
+}
+.navbar-nav>li>.dropdown-menu > li a{
+    color:white;
+}
+
+.navbar-nav>li>.dropdown-menu > li a:hover{
+    color:black;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: black;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: black;
+}
+.navbar-nav > .dropdown > .dropdown-toggle{
+    padding: 0px;
+
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.h-100 {
+    height: 100%!important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+
+}
+.card-title {
+    margin-bottom: .75rem;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+}
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.card-min-height{
+  min-height: 30em;
+}
+
+.black-bg-div{
+    padding: 0px;
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+
+.border-radious-0{
+    border-radius: 0px;
+}
+
+.kd-pkg-info {
+    background-color: #081b5d;
+    border: 1px solid #cfcfcf;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.kd-pkg-info, .kd-imageframe {
+    float: left;
+    width: 100%;
+}
+.kd-pkg-info ul li {
+    list-style: none;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.kd-pkg-info ul li i {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #bababa;
+    color: #ffffff;
+    border-radius: 100%;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    margin-right: 10px;
+}

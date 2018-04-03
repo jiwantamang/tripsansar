@@ -1,0 +1,1 @@
+<button class="btn btn-success pull-right" onclick="ajaxPayment()">Next</button>

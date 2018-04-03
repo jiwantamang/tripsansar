@@ -1,0 +1,76 @@
+<?php
+
+namespace hotel\models;
+
+use Yii;
+
+/**
+ * This is the model class for table "hotel_profile".
+ *
+ * @property integer $id
+ * @property string $description
+ * @property string $rating
+ * @property string $minimum_cost
+ * @property string $address
+ * @property string $note1
+ * @property string $note2
+ * @property string $note3
+ * @property string $note4
+ * @property string $image
+ * @property integer $hotel_hotel_id
+ *
+ * @property Hotel $hotelHotel
+ */
+class HotelProfile extends \yii\db\ActiveRecord
+{
+    
+    public $file;
+    public static function tableName()
+    {
+        return 'hotel_profile';
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function rules()
+    {
+        return [
+            [['description'], 'string'],
+            [['hotel_hotel_id'], 'required'],
+            [['hotel_hotel_id'], 'integer'],
+            [['file'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg'],
+            [['rating', 'minimum_cost', 'note1', 'note2', 'note3', 'note4', 'image'], 'string', 'max' => 45],
+            [['address'], 'string', 'max' => 100],
+            [['hotel_hotel_id'], 'exist', 'skipOnError' => true, 'targetClass' => Hotel::className(), 'targetAttribute' => ['hotel_hotel_id' => 'hotel_id']],
+        ];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
+    {
+        return [
+            'id' => 'ID',
+            'description' => 'Description',
+            'rating' => 'Rating',
+            'minimum_cost' => 'Minimum Cost',
+            'address' => 'Address',
+            'note1' => 'Note1',
+            'note2' => 'Note2',
+            'note3' => 'Note3',
+            'note4' => 'Note4',
+            'image' => 'Image',
+            'hotel_hotel_id' => 'Hotel Hotel ID',
+        ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getHotelHotel()
+    {
+        return $this->hasOne(Hotel::className(), ['hotel_id' => 'hotel_hotel_id']);
+    }
+}
